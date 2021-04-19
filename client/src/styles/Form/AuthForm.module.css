@@ -1,0 +1,113 @@
+.form {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 30px 30px 30px;
+  width: fit-content;
+}
+
+.header {
+  color: #ffc700;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49px;
+  margin-bottom: 30px;
+}
+
+.container {
+  min-width: 350px;
+}
+
+.input__group {
+  margin-bottom: 20px;
+}
+.input__group:last-child {
+  margin-bottom: 0;
+}
+
+.input__group > input,
+.input__group > select {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #d2d2d2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  padding: 15px;
+  width: 100%;
+}
+.input__group > input:focus-visible,
+.input__group > select:focus-visible {
+  outline: none;
+}
+.input__group > select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  text-indent: 1px;
+  text-overflow: '';
+}
+.input__group > select::-ms-expand {
+  display: none;
+}
+
+.input__group > input::placeholder,
+.input__group > input::-moz-placeholder,
+.input__group > input::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.select__group {
+  position: relative;
+}
+
+.select__arrow {
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(50%);
+
+  bottom: 50%;
+  right: 15px;
+}
+
+.submit {
+  background: #433434;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 900;
+  line-height: 1.125rem;
+  margin-top: 30px;
+  padding: 15px;
+  width: 100%;
+}
+
+.footer {
+  margin-top: 24px;
+}
+
+.link {
+  color: #b1b1b1;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  margin: auto;
+  width: fit-content;
+}
+.link span {
+  font-weight: 800;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  background-color: pink;
+  border-radius: 5px;
+  color: red;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  margin-bottom: 20px;
+  padding: 15px;
+}

@@ -1,0 +1,97 @@
+.coc__card {
+  border: solid #000;
+  border-width: 1px 0 0 0;
+  display: flex;
+  padding: 15px;
+}
+
+.coc__card:last-child {
+  border-width: 1px 0 1px 0;
+}
+
+.coc__image {
+  height: 80px;
+  width: 80px;
+}
+
+.coc__image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.coc__content {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.coc__top,
+.coc__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coc__bottom {
+  margin-top: 12px;
+}
+
+.coc__name {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.coc__quantity-controller {
+  display: flex;
+}
+
+.coc__price {
+  color: #ff0000;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.coc__delete {
+  cursor: pointer;
+}
+
+.coc__decrease {
+  border-radius: 5px 0 0 5px;
+}
+
+.coc__increase {
+  border-radius: 0 5px 5px 0;
+}
+
+.coc__decrease,
+.coc__increase {
+  align-items: center;
+  background-color: #433434;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  width: 24px;
+  justify-content: center;
+}
+
+.coc__quantity {
+  background-color: #f6e6da;
+  border: none;
+  color: #613d2b;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  width: 32px;
+}
+
+.coc__quantity::-webkit-outer-spin-button,
+.coc__quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.coc__quantity[type='number'] {
+  -moz-appearance: textfield;
+}

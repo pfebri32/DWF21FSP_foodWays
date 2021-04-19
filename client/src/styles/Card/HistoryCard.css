@@ -1,0 +1,62 @@
+.hc__card {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.hc__card:last-child {
+  margin-bottom: 0;
+}
+
+.hc__name {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 17px;
+}
+
+.hc__date {
+  font-size: 0.75rem;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.hc__date > span {
+  font-weight: 900;
+}
+
+.hc__cost {
+  align-items: flex-end;
+  color: #974a4a;
+  display: flex;
+  flex: 1;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 14px;
+}
+
+.hc__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hc__status {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 117, 0.1) 0%,
+    rgba(0, 255, 133, 0.1) 100%
+  );
+  border-radius: 5px;
+  color: green;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 14px;
+  margin-top: 12px;
+  padding: 3px 15px;
+}

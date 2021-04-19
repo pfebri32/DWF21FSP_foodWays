@@ -1,0 +1,8 @@
+.modal__dialog {
+  justify-content: center;
+  max-width: unset;
+}
+
+.modal__content {
+  width: fit-content;
+}

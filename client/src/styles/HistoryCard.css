@@ -1,0 +1,54 @@
+.hc__container {
+  background-color: #fff;
+  display: flex;
+  padding: 20px 15px;
+}
+
+.hc__name {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+}
+
+.hc__date {
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 12px;
+  margin-top: 4px;
+}
+
+.hc__date > span {
+  font-weight: 900;
+}
+
+.hc__total {
+  color: #974a4a;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 14px;
+  margin-top: 14px;
+}
+
+.hc__left {
+  flex: 1;
+}
+
+.hc__status {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 117, 0.1) 0%,
+    rgba(0, 255, 133, 0.1) 100%
+  );
+  border-radius: 2px;
+  color: #00ff47;
+  display: flex;
+  font-size: 10px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 14px;
+  margin-top: 13px;
+  min-height: 19px;
+  min-width: 112px;
+}

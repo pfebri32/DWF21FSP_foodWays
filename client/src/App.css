@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+.App {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.app__header {
+  color: #000000;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+}
+
+.app__row {
+  display: flex;
+}
+
+.app__button {
+  background: #433434;
+  border-radius: 5px;
+}
+
+.app__main-center {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.normalize {
+  color: #000;
+}
+
+.normalize:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.app__text-red {
+  color: #ff0000;
+}
+
+.app__text-bold {
+  font-weight: 700;
+}
+
+.map__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}

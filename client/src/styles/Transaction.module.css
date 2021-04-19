@@ -1,0 +1,60 @@
+.table {
+  margin-top: 30px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.tableHeader {
+  background-color: #ccc;
+}
+
+.tableHeader > th,
+.tableRow > td {
+  border: #828282 2px solid;
+  font-size: 0.9rem;
+  overflow: hidden;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 15px;
+  min-width: 100px;
+  padding: 5px 15px;
+}
+.button:last-child {
+  margin-right: 0;
+}
+
+.buttonCancel {
+  background-color: red;
+}
+.buttonApprove {
+  background-color: green;
+}
+
+.statusApproval {
+  color: #bdbd38;
+}
+.statusSuccess {
+  color: green;
+}
+.statusCancel {
+  color: red;
+}
+
+.statusApproval,
+.statusSuccess,
+.statusCancel {
+  font-weight: 700;
+  text-align: center;
+}
+
+.statusIcon {
+  display: block;
+  margin: auto;
+}

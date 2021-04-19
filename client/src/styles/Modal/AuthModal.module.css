@@ -1,0 +1,46 @@
+.shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: opacity 250ms;
+  z-index: 101;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.shadow.show {
+  opacity: 1;
+  pointer-events: all;
+}
+.shadow.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  max-height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  transform: translate(50%, 50%);
+  transition: opacity 250ms;
+  z-index: 102;
+
+  right: 50%;
+  bottom: 50%;
+}
+.modal.show {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}

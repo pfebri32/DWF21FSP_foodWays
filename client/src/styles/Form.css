@@ -1,0 +1,259 @@
+.Form {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 30px 30px 30px;
+  width: fit-content;
+}
+
+.form__header {
+  color: #ffc700;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49px;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.form__input-container {
+  min-width: 350px;
+}
+
+/* Form Input Group */
+.form__input-group {
+  margin-bottom: 20px;
+}
+
+.form__input-group:last-child {
+  margin-bottom: 0;
+}
+
+.form__input-group > input,
+.form__input-group > select,
+.form__input-file,
+.form__location-field.form__input-group-style {
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #d2d2d2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 12px 15px;
+  width: 100%;
+}
+
+.form__input-group > input::placeholder,
+.form__input-group > input::-moz-placeholder,
+.form__input-group > input::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.form__input-group > select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.form__input-group > select::-ms-expand {
+  display: none;
+}
+
+.form__select-group {
+  position: relative;
+}
+
+.form__select-arrow {
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(50%);
+
+  bottom: 50%;
+  right: 15px;
+}
+
+.form__submit {
+  background: #433434;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-top: 30px;
+  padding: 12px 15px;
+  width: 100%;
+}
+
+.form__submit.right {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+}
+
+.form__footer {
+  margin-top: 24px;
+}
+
+.form__link span {
+  font-weight: 800;
+}
+
+.form__link {
+  color: #b1b1b1;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  margin: auto;
+  width: fit-content;
+}
+
+.form__link:hover {
+  text-decoration: underline;
+}
+
+/* Delivery Location */
+.form__location-header {
+  color: #613d2b;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.form__location-field {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex: 1;
+}
+
+.form__location-button {
+  align-items: center;
+  background-color: #433434;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 19px;
+  width: 240px;
+}
+
+.form__location-icon {
+  margin-left: 15px;
+}
+
+.form__location-field,
+.form__location-button {
+  border-radius: 5px;
+  margin: 0 15px;
+  padding: 12px 15px;
+}
+
+/* Map Fixed Component */
+.form__location-map.show {
+  display: flex;
+}
+
+.form__location-map {
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  min-height: 440px;
+  min-width: 1140px;
+  padding: 15px;
+  position: fixed;
+  transform: translateY(50%);
+  z-index: 101;
+
+  bottom: 50%;
+}
+
+.form__location-area {
+  border-radius: 5px;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.form__location-modal-controller {
+  display: block;
+  margin-top: 15px;
+}
+
+.form__location-modal-controller-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__location-modal {
+  align-items: center;
+  background: #433434;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.825rem;
+  font-weight: 700;
+  justify-content: center;
+  margin-right: 15px;
+  min-width: 200px;
+  padding: 6px 15px;
+}
+
+.form__location-modal:last-child {
+  margin-right: 0;
+}
+
+.form__input-group-row {
+  display: flex;
+}
+
+.form__inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__input-file {
+  cursor: pointer;
+  margin-left: 30px;
+  width: 240px;
+}
+
+.form__input-file > label {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input-file > label {
+  margin-bottom: 0;
+}
+
+.form__input-group > ::-webkit-outer-spin-button,
+.form__input-group > ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form__input-group > input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.form__error {
+  background-color: pink;
+  border-radius: 5px;
+  color: red;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 12px 15px;
+}
